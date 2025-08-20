@@ -8,7 +8,12 @@
   margin-top: 5rem;
 }
 
-.input-box input {
+.input-box p {
+  text-align: end;
+  font-size: 2rem;
+}
+
+/* .input-box input {
   border-radius: 3rem;
   border: 2px solid black;
   padding: 1rem 10rem;
@@ -27,4 +32,4 @@
   top: 50%;
   left: 10px;
   transform: translate(50%, -50%);
-}
+} */

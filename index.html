@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./styles/projects.css" />
     <link rel="stylesheet" href="./styles/contacts.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -26,7 +27,7 @@
     <!--  -->
   </head>
   <body>
-    <header class="header">
+    <header class="header" style="border: 0px solid blue">
       <a href="#" class="logo"><span>Norah Jepngetich</span></a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
@@ -48,19 +49,26 @@
         />
         <div class="info-box">
           <div class="text">
-            <h3>Hi, I´m</h3>
+            <span>Hi,I’m</span>
             <h1>Norah Jepngetich</h1>
             <p>Frontend Developer</p>
           </div>
 
-          <div class="btn-group">
+          <!-- to be added when backend is sorted out -->
+          <!-- <div class="btn-group">
             <button class="btn">Download CV</button>
             <button class="btn">Contact</button>
-          </div>
+          </div> -->
 
           <div class="socials">
             <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
+
+            <a
+              href="https://www.linkedin.com/in/norah-jepng-etich-6b605b44/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin" id="linkedin-icon"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -70,7 +78,7 @@
       <h2 class="section-title">Experience</h2>
 
       <div class="experience-info">
-        <div class="grid">
+        <div class="experience-grid">
           <div class="grid-card">
             <i class="fa fa-code" aria-hidden="true"></i>
             <p class="grid-card-title">Front End development</p>
@@ -116,7 +124,7 @@
           </div>
         </div>
 
-        <img src="./assets/images/Profpic.jpeg" alt="profile-pic" />
+        <!-- <img src="./assets/images/Profpic.jpeg" alt="profile-pic" /> -->
       </div>
     </section>
 
@@ -171,14 +179,23 @@
     <section class="contacts" id="contacts">
       <div class="input-box">
         <h2 class="section-title">Contact Me</h2>
-        <div class="input">
+        <p id="email-add">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          Jepngetichkimaiyo@gmail.com
+        </p>
+        <p id="phone-number">
+          <i class="fa fa-phone" aria-hidden="true"></i> +254 728 353 386
+        </p>
+        <!-- to be added when backend is sorted out -->
+        <!-- <div class="input">
           <input type="text" placeholder="example@email.com" />
           <i class="fa fa-envelope" aria-hidden="true"></i>
         </div>
 
+      
         <div class="btn-group">
           <button class="btn">Submit</button>
-        </div>
+        </div>  -->
       </div>
     </section>
 
