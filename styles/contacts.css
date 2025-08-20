@@ -1,0 +1,30 @@
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.input-box input {
+  border-radius: 3rem;
+  border: 2px solid black;
+  padding: 1rem 10rem;
+  font-size: 2rem;
+}
+.input-box input::placeholder {
+  border-radius: 2rem;
+}
+
+.input {
+  position: relative;
+}
+.input i {
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: 10px;
+  transform: translate(50%, -50%);
+}

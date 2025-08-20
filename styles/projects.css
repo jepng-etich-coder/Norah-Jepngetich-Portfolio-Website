@@ -1,0 +1,45 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card img {
+  width: 20vw;
+  border-radius: 1rem;
+}
+
+.project-card h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.project-card {
+  border: 2px solid black;
+  border-radius: 3rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.project-card:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-10px) scale(1.02);
+}
+
+.project-card:hover .btn {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+}
+.project-card:hover .btn:hover {
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+}
