@@ -11,7 +11,7 @@
   .experience-info {
     flex-direction: column;
   }
-
+  /* 
   .input-box input {
     padding: 2rem 5rem;
     font-size: 2.5rem;
@@ -19,7 +19,7 @@
 
   .input input::placeholder {
     font-size: 2.5rem;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -49,7 +49,13 @@
     font-weight: 600;
     margin-bottom: 3rem;
   }
-  .input-box input {
+  .contact-list {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .input-box input {
     padding: 1rem 2rem;
     font-size: 1.8rem;
   }
@@ -60,7 +66,7 @@
 
   .input-box i {
     display: none;
-  }
+  } */
 
   .experience-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -114,8 +120,11 @@
     height: 80vw;
     object-fit: cover;
   }
+  .contact-list {
+    font-size: 1.5rem;
+  }
 
-  .input-box input {
+  /* .input-box input {
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     width: 80%;
@@ -123,7 +132,7 @@
 
   .input input::placeholder {
     font-size: 1.5rem;
-  }
+  } */
 
   footer ul {
     gap: 1rem;

@@ -1,4 +1,15 @@
-.input-box {
+.contact-list {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#phone-number {
+  margin-top: 1.8rem;
+}
+/* .input-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +22,7 @@
 .input-box p {
   text-align: end;
   font-size: 2rem;
-}
+} */
 
 /* .input-box input {
   border-radius: 3rem;

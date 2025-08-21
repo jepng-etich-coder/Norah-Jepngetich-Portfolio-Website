@@ -20,7 +20,7 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(8px);
   color: #fff;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 8rem;
   border-radius: 3rem;
   z-index: 1000;
 }
@@ -61,6 +61,10 @@ header li a::before {
 header li a:hover::before {
   width: 100%;
   transition: 0.3s ease-in-out;
+}
+
+.socials-link {
+  color: black;
 }
 
 #fa-github-icon {
